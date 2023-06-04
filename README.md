@@ -11,20 +11,25 @@ The purpose was to construct a classification machine-learning model that can pr
 Not only this automation will significantly reduce a overhead cost and time of approving each applicant, but also we could efficiently reduce the rate of erroneously approving high-risk applicants.
 
 ## Modeling
+For the modeling, the target variable was `BAD`, a binary variable that determines whether the applicant ultimately defaulted or not.
+Some indepdent variables I used for modeling were `DEBTINC`, Debt-to-Income Ratio, and `DELINQ`, or number of delinquencies of each applicant.
+
 Before going further, below list is the important terminology when I utilized Confusion Matrix.
 
-- `Accuracy`: Overall performance
-- `Precision`: How accurate the positive predictions
-- `Recall`: Coverage of actual positive sample
-- `Specificity`: Coverage of actual negative sample
-- `F1 Score`: 
+- `Accuracy`: From all classes, howm any predictive positive and negative.
+- `Precision`: From all positive predictions, how many results were actually positive. (Key Factor: False Positive or Type I Error)
+- `Recall`: From all positive classes, how many we predicted correctly. (Key factor: False Negative or Type II Error)
+- `Specificity`: Coverage of actual negative sample.
+- `F1 Score`: Balance out Recall and Precision concurrently.
+
+If we re-apply this in terms of Mortgage Loan's perspective:
+- `Precision`: Out of all applicant whom we declined as potential loan defaulters, how many actually defaulted? In this case. we lose profits if we are declining applicants who did not default.
+- `Recall`: Out of all applicants who actually defaulted, how many of them we actually rejected. In this case, if we accept applicants who ultimately defaulted, this will lead to company loss and increase expenses to cover the defaulted loan.
 
 
 After trying different models, I decided to go with `Fine-Tuned Random Forest` model because it showed the highest `Recall` rate at around 73% with `Accuracy` rate at around 87%.
 
-While it is true that having `Precision` is an important metric for approving low-risk applicants, I prioritize on the `Recall` rate because we wanted to minimize the false-approval rate of applicants who have a high-risk of defaulting. 
-
-Potentially, it will cost significantly more for the company to pay expenses from defaulted users rather than missing low-risk applicants.
+While it is true that having `Precision` is an important metric for approving low-risk applicants, I prioritize on the `Recall` rate because we wanted to minimize the cost that the company will have to pay.
 
 ## Conclusion
 I recommended the following below:
