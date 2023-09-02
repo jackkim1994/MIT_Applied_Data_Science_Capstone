@@ -1,4 +1,4 @@
-# Predicting Home Loan Defaulters (Capston Project for MIT Professional Education)
+# Predicting Home Loan Defaulters (Capstone Project for MIT Professional Education)
 For reference, [link for my MIT Profession Education Certificate](https://www.credential.net/c5728bdb-3927-4881-b2d7-12a8d7f34d54)
 
 ## Purpose of the Capstone Project
