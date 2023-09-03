@@ -1,5 +1,5 @@
 # Predicting Mortgage Loan Defaulters (Capstone Project for MIT Professional Education)
-For reference, [link for my MIT Profession Education Certificate](https://www.credential.net/c5728bdb-3927-4881-b2d7-12a8d7f34d54)
+For reference, [link for my MIT Profession Education Applied Data Science Certificate](https://www.credential.net/c5728bdb-3927-4881-b2d7-12a8d7f34d54)
 
 ## Purpose of the Capstone Project
 The hypothetical mortgage loan company had been experiencing a signficant overhead cost and time because of the incessant manual process to approve each aplicant. This process was highly inefficient and was prone to a human error.
