@@ -2,7 +2,7 @@
 For reference, [link for my MIT Profession Education Applied Data Science Certificate](https://www.credential.net/c5728bdb-3927-4881-b2d7-12a8d7f34d54)
 
 Additional note:
-If the ipynb file does not render, please refer to the static HTML link from [NBViwer].(https://nbviewer.org/github/jackkim1994/MIT_Applied_Data_Science_Capstone/blob/master/Predict_Loan_Defaults_Code.ipynb)
+If the ipynb file does not render, please refer to the static HTML link from [NBViwer](https://nbviewer.org/github/jackkim1994/MIT_Applied_Data_Science_Capstone/blob/master/Predict_Loan_Defaults_Code.ipynb)
 
 ## Purpose of the Capstone Project
 The hypothetical mortgage loan company had been experiencing a signficant overhead cost and time because of the incessant manual process to approve each aplicant. This process was highly inefficient and was prone to a human error.
